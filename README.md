@@ -1,67 +1,20 @@
-# BlackRoad Zapier App
+# blackroad-zapier-app
 
-Official Zapier integration for BlackRoad OS - connect AI infrastructure to 5000+ apps.
+Official BlackRoad Zapier App - Connect AI infrastructure to 5000+ apps
 
-## Features
+## Organization
 
-### Triggers (Start a Zap when...)
-| Trigger | Description |
-|---------|-------------|
-| New User | A new user signs up |
-| Deployment Complete | A deployment finishes |
-| Error Occurred | An error is detected |
-| Agent Status Change | An AI agent's status changes |
-| Usage Threshold | Usage exceeds your limit |
+**BlackRoad-OS** — Core platform — websites, integrations, coordination
 
-### Actions (Do this...)
-| Action | Description |
-|--------|-------------|
-| Deploy Product | Trigger a deployment |
-| Create User | Add a new user |
-| Update Config | Change configuration |
-| Send Notification | Send alerts (Slack/email) |
-| Scale Agents | Scale AI agents up/down |
+## BlackRoad OS
 
-### Searches (Find...)
-| Search | Description |
-|--------|-------------|
-| Find User | Search by email or ID |
-| Find Deployment | Search by ID or service |
+BlackRoad OS is a distributed AI operating system — 20 domains, 668 repositories, 1,000 AI agents, and sovereign infrastructure running on Raspberry Pis and Hailo-8 accelerators. No cloud dependency.
 
-## Installation
+- [blackroad.io](https://blackroad.io) — Main platform
+- [docs.blackroad.io](https://docs.blackroad.io) — Documentation
+- [GitHub](https://github.com/BlackRoad-OS) — This organization
 
-1. Go to [Zapier](https://zapier.com/apps/blackroad/integrations)
-2. Click "Connect BlackRoad"
-3. Enter your API key from https://blackroad.io/settings/api
+**Language:** JavaScript
 
-## Example Zaps
 
-- **Slack + BlackRoad**: Get Slack notifications when deployments complete
-- **Email + BlackRoad**: Email team when errors occur
-- **Google Sheets + BlackRoad**: Log new users to a spreadsheet
-- **Airtable + BlackRoad**: Track agent status changes
-- **PagerDuty + BlackRoad**: Alert on-call when critical errors occur
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Test locally
-npm test
-
-# Validate app
-npm run validate
-
-# Push to Zapier
-npm run push
-```
-
-## API Base URL
-
-`https://api.blackroad.io/v1/`
-
-## License
-
-MIT © BlackRoad OS, Inc.
+*© 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
